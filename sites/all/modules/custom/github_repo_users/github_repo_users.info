@@ -1,0 +1,3 @@
+name = Drupalconsole GitHub Repository Contributors
+description = Retrieve a contributors list of a specific repository
+core = 7.x

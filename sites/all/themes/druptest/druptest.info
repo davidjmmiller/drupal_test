@@ -1,0 +1,20 @@
+name = druptest
+description = It's a basic custom made theme for testing purposes developed by <em>David M. Miller</em>.
+package = Core
+version = 1.0
+core = 7.x
+stylesheets[screen][] = reset.css
+stylesheets[screen][] = style.css
+settings[shortcut_module_link] = 1
+
+; Custom regions
+regions[header] = Header
+regions[nav] = Navigation
+regions[content] = Main
+regions[footer] = Footer
+
+; Default Drupal Sections Hidden
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[sidebar_first] = First sidebar
+regions_hidden[] = sidebar_first
